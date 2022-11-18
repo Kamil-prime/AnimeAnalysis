@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class library {
-    static ArrayList<animeObject> anime = new ArrayList<animeObject>();
+    public static ArrayList<animeObject> anime = new ArrayList<animeObject>();
 
     static animeObject spyXFamily = new animeObject("Spy x Family", "S2","Action", "Shounen", 2022, 8.67);
     static animeObject chainsawMan = new animeObject("Chainsaw Man", "S1", "Action","Supernatural", 2022, 8.88);
