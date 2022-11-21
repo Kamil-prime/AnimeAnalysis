@@ -19,6 +19,18 @@ public class animeObject {
         return name;
     }
 
+    public String getGenre() {
+        return genre;
+    }
+
+    public String getGenre2() {
+        return genre2;
+    }
+
+    public String getSeason() {
+        return season;
+    }
+
     public animeObject(String name, String season, String genre, String genre2, int relDate, double rate){
         this.name= name;
         this.season= season;
@@ -39,7 +51,10 @@ public class animeObject {
 
     @Override
     public String toString() {
-        return name + "," + season + "," + genre + "," + genre2 + "," + relDate + "," + rate;
+
+            return name + "," + season + "," + genre + "," + genre2 + "," + relDate + "," + rate;
+        }
 
     }
-}
+
+
